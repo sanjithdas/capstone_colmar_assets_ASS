@@ -1,9 +1,9 @@
-/* navbar*/
 
+/* body font */
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/* navbar*/
 .font-bold-text {
   font-size: 2rem;
   font-weight: bold;
@@ -183,9 +183,7 @@ ul.footer-menu {
   .course-section {
     margin-top: 2rem;
   }
-  .col-orientation {
-    flex-basis: 1 !important;
-  }
+  
   .items {
     flex-direction: column;
     width: 100%;
