@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colmar Academy</title>
+    <!-- Bootstrap CSS cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <!-- body-->
+  <body>
+
+    <!-- Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img src="/images/ic-logo.svg" alt="Logo"></a>
+      <div class="navbar-brand"><span class="font-weight-bold">COLMAR</span>ACADEMY</div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <a href="#" class="active  rt-nav">On Campus</a>
+        <a href="#" class="submit  rt-nav">Online</a>
+        <a href="#" class="submit  rt-nav">or companies</a>
+        <a href="#" class="submit  rt-nav rt-last">Sign in</a>
+        
+      </div>
+    </nav>
+
+    <!-- content section - banner -->
+    <div class="row background-gray border-right-0">
+      <div class="col-md-7 background-gray">
+        <div class="card background-gray border-0">
+          <div class="card-body">
+             <img class="img-banner" src="/images/banner.jpg" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 ">
+        <div class="card card-right background-gray mr-5  border-0">
+          <div class="card-body mt-5 ">
+            <h5 class="card-title mt-5 font-bold-text">Learn something<br> new every day</h5>
+            <p class="card-text font-weight-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et consectetur molestias fuga repellat tempore ut tenetur? Tempore, ullam. </p>
+            <a href="#" class="go-btn btn btn-primary p-2-6 mt-2">Start</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- course section-->
+
+    
+    <div class="row  border-right-0">
+      <!-- first row , first col-->
+      <div class="col-md-7 ">
+        <div class="card border-0">
+          <div class="card-body">
+             <img class="img-banner" src="/images/information-main.jpg" width="100%" alt="">
+             <p class="practice-head">It doesn't hurt to keep practicing</p>
+             <p class="text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas veritatis sit maxime consequuntur veniam asperiores accusamus?"</p> 
+             <p class="text">Emmanuel, Sr Strategist at Hiring.com</p>
+
+             </p>
+          </div>
+          
+        </div>
+      </div>
+      <!-- first row second column-->
+
+      <div class="col-md-5">
+        <div class="card mt-4">
+          <div class="card-body">
+
+           <div class="row mt-0 border border-dark">
+             <div class="col-4">
+               <img src="/images/information-orientation.jpg" alt="" width="100%">
+             </div>  
+             <div class="col-8">
+              <h5 class="orientation mt-5">Orientation date</h5>
+              <p>Tue 10/11 &Wed 10/12: 8am-3pm</p>
+              <a href="#">Read me</a>
+            </div>  
+            </div>
+
+           <div class="row border border-dark mt-2">
+            <div class="col-4">
+              <img src="/images/information-campus.jpg" alt="" width="100%">
+            </div>  
+            <div class="col-8">
+              <h5 class="orientation">Orientation date</h5>
+           </div>  
+          </div>
+
+          <div class="row">
+            <div class="col-4 mt-2">
+              <img src="/images/information-guest-lecture.jpg" alt="" width="100%">
+            </div>  
+            <div class="col-8">
+              <h5 class="orientation">Orientation date</h5>
+           </div>  
+          </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- course image gallery , row1-->
+    <div class="row gallery">
+      <div class="gallery-images">
+        <div class="h4 text-center learning">Start learning</div>
+        <div class="row  bg-white">
+         <div class="col  images ">
+            <div class="row">
+              <div class="col">
+                <img src="/images/course-software.jpg" alt="" width="100%" height="100%">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col courses">
+                <h5>Software Engineering</h5>
+                <p class="text-center">Courses</p>
+                <p class="text-center">Web Development, Mobile Development, iOT, APIs</p>
+              </div>
+            </div>
+         </div>
+         <div class="col  images mr-5">
+          <div class="row">
+            <div class="col">
+              <img src="/images/course-computer-art.jpg" alt="" width="100%" height="100%">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col courses">
+              <h5>Software Engineering</h5>
+              <p class="text-center">Courses</p>
+              <p class="text-center">Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+          </div>
+       </div>
+       <div class="col  images">
+        <div class="row">
+          <div class="col">
+            <img src="/images/course-design.jpg" alt="" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col courses">
+            <h5>Software Engineering</h5>
+            <p class="text-center">Courses</p>
+            <p class="text-center">Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+        </div>
+     </div>
+    </div>
+   </div>
+   <!-- gallery secon row -->
+   <div class="row gallery">
+    <div class="col gallery-images">
+        <div class="row">
+       <div class="col  images">
+          <div class="row bg-white">
+            <div class="col">
+              <img src="/images/course-data.jpg" alt="" width="100%" height="100%">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col courses">
+              <h5>Software Engineering</h5>
+              <p class="text-center">Courses</p>
+              <p class="text-center">Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+          </div>
+       </div>
+       <div class="col  images">
+        <div class="row">
+          <div class="col">
+            <img src="/images/course-business.jpg" alt="" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col courses">
+            <h5>Software Engineering</h5>
+            <p class="text-center">Courses</p>
+            <p class="text-center">Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+        </div>
+     </div>
+     <div class="col  images">
+      <div class="row">
+        <div class="col">
+          <img src="/images/course-marketing.jpg" alt="" width="100%" height="100%">
+        </div>
+      </div>
+        <div class="row">
+          <div class="col courses">
+            <h5>Software Engineering</h5>
+            <p class="text-center">Courses</p>
+            <p class="text-center">Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  
+
+    
+  </div>
+</div>
+      <!-- first row , first col-->
+     <div class="video-section  text-center">
+       <div class="row">
+         <div class="col thesis">
+           <h3>Thesis exhibit</h3>
+         </div>
+       </div>
+       <div class="row  border-right-0">
+        <!-- first row , first col-->
+        <div class="col-md-7 ">
+          <div class="card border-0">
+            <div class="card-body">
+               <video controls width="100%">
+                 <source src="/videos/thesis.mp4">
+               </video>
+               <p class="practice-head text-left">Reimagine urban</p>
+               <p class="text text-left">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas veritatis sit maxime consequuntur veniam asperiores accusamus?"</p> 
+               <p class="text">Emmanuel, Sr Strategist at Hiring.com</p>
+  
+               </p>
+            </div>
+            
+          </div>
+        </div>
+        <!-- first row second column-->
+  
+        <div class="col-md-5">
+          <div class="card ">
+            <div class="card-body">
+  
+             <div class="row mt-0 background-gray col-2-thesis">
+               <div class="col-4">
+                 <img src="/images/thesis-fisma.jpg" alt="" width="100%">
+               </div>  
+               <div class="col-8">
+                <h5 class="orientation mt-5 text-left">Fisma: Design and Prototype</h5>
+                <p class="text-left">Designer showcase of new prototype product</p>
+                 
+              </div>  
+              </div>
+  
+             <div class="row mt-2">
+              <div class="col-4 col-2-thesis">
+                <img src="/images/thesis-now-and-then.jpg" alt="" width="100%">
+              </div>  
+              <div class="col-8">
+                <h5 class="orientation mt-5 text-left">Now and then</h5>
+                <p class="text-left">Research study about New York</p>
+              </div>  
+            </div>
+               
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <footer>
+       <div class="footer-msg">
+         &copy; 2016 Colmar Academy. All right reserved.
+         <ul class="footer-menu">
+           <li class="footer-menu-item one">Terms</li> 
+           <li class="footer-menu-item two">Privacy</li> 
+         </ul>
+       </div>
+     </footer>
+
+ </div>
+
+
+
+    <!-- Script  cdn-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

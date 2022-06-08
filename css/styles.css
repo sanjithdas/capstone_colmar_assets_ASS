@@ -1,0 +1,205 @@
+/* navbar*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font-bold-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: one;
+}
+.title-logo {
+  margin-left: -65px;
+}
+.rt-nav {
+  padding: 16px;
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
+}
+.menu-item-1 {
+  display: none;
+}
+.rt-last {
+  margin-right: 24px;
+}
+
+/* banner section */
+
+.img-banner {
+  padding: 32px 24px;
+}
+
+.go-btn {
+  background-color: rgb(19, 18, 18);
+  width: 50%;
+  margin-left: 7rem;
+  padding: 8px;
+}
+
+.card-right {
+  margin-top: 4rem;
+}
+.practice-head {
+  margin-left: 24px;
+  margin-bottom: 32px;
+  font-size: 2rem;
+}
+.text {
+  margin-left: 24px;
+}
+.gallery {
+  background-color: lightgrey;
+  margin-left: 24px;
+}
+.gallery-images {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+/** learnign section */
+.learning {
+  margin-top: 2rem;
+
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.content-3 {
+  background-color: lightgray;
+  padding-bottom: 32px;
+}
+.text-label {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 32px;
+}
+.items {
+  margin-top: 32px;
+  margin-left: 72px;
+  margin-bottom: 32px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.items .item {
+  margin-right: 32px;
+  margin-bottom: 32px;
+  width: 30%;
+
+  background-color: white;
+}
+.item img {
+  width: 100%;
+}
+.lbl-learning {
+  padding: 16px;
+  background-color: white;
+}
+.subject {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.courses {
+  margin-top: 8px;
+}
+
+.item-border {
+  padding: 10px;
+  border: 1px solid rgb(221, 225, 221);
+}
+
+/* thesis */
+
+.thesis {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.background-gray {
+  background-color: rgb(204, 194, 194);
+}
+.col-2-thesis {
+  padding: 16px;
+}
+
+/** footer section */
+
+ul,
+li {
+  display: inline-block;
+}
+
+footer {
+  padding: 2rem;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  border-top: 1px solid rgb(227, 213, 213);
+}
+
+ul.footer-menu {
+  float: right;
+  margin-top: 0px;
+}
+
+/* mediq query for mobile devices */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .title-logo {
+    display: none;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .menu-item-1 {
+    display: inline-block;
+  }
+  .img-banner {
+    padding: 0;
+    margin: 0;
+  }
+  .card-right {
+    margin-top: 0;
+  }
+  .card-body {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .go-btn {
+    margin-bottom: 32px;
+  }
+  .card-title {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .course-section {
+    margin-top: 2rem;
+  }
+  .col-orientation {
+    flex-basis: 1 !important;
+  }
+  .items {
+    flex-direction: column;
+    width: 100%;
+  }
+  .items .item {
+    padding: 20px;
+    width: 100%;
+    /* background-color: white; */
+  }
+  /* .courses,
+  .details, .img-learning {
+    display: none;
+  }
+  .subject{
+    background-color:  rgb(204, 194, 194);
+  } */
+}
